@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.bg-primary{
+    background-color: royalblue;
+} 
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-big {
+    font-size: 3rem;
+}

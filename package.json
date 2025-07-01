@@ -1,7 +1,10 @@
 {
+  "scripts": {
+    "start": "npx tailwindcss -i ./src/input.css -o ./app/css/styles.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./app/css/styles.css"
+  },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
-    "bootstrap": "^5.3.7",
     "tailwindcss": "^4.1.11"
   }
 }
