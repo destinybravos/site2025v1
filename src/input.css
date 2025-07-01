@@ -1,13 +1,10 @@
 @import "tailwindcss";
 
-.bg-primary{
-    background-color: royalblue;
-} 
-
-.text-bold {
-    font-weight: bold;
-}
-
-.text-big {
-    font-size: 3rem;
+@theme {  
+    --color-dark: #193a41;
+    --color-light: #f5f5f5;
+    --color-primary: #85f47d;
+    --color-primary-light: #85f47d;
+    --color-primary-dark: #85f47d;
+    --color-secondary: #776aed;
 }
